@@ -29,6 +29,10 @@ This project is a fork of Uniswap V2 deployed on the Ethereum mainnet, specifica
 ## Contract Addresses
 see Addliquidity file
 
+##screenshot from swapTokenFroExactToken 
+![Uploading Screenshot (43).png…]()
+
+
 ## Security Considerations
 - Smart contracts are based on Uniswap V2, which has been audited.
 - Ensure proper key management and use hardware wallets for high-value transactions.
