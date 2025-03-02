@@ -25,7 +25,7 @@ const main = async () => {
     let uniswapRouterContract = await ethers.getContractAt("IUniswapV2Router01", uniswapRouter)
 
     //balance
-    console.log("------------let fucking go 🤩-------------")
+    console.log("----------let fucking go 🤑-----------")
 
 
 // get balance
