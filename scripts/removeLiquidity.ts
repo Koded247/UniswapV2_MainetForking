@@ -65,8 +65,7 @@ console.log("threshold/kucoin " + ethers.formatUnits(poolAddressBal, decimalPool
 const amountAMin = ethers.parseUnits("0", 18)
 const amountBMin = ethers.parseUnits("0", 6)
 
-// const amountAMin = 51136872.05408214726900432
-// const amountBMin = amountBDesired * 90n/100n
+
 
 const liquidity =  poolAddressBal
 
