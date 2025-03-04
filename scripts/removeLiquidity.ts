@@ -57,11 +57,6 @@ console.log("threshold/kucoin " + ethers.formatUnits(poolAddressBal, decimalPool
 
 // const poolAddressBal = await 
 
-
-
-
-
-
 const amountAMin = ethers.parseUnits("0", 18)
 const amountBMin = ethers.parseUnits("0", 6)
 
@@ -99,14 +94,12 @@ const kucoinBalanceAfter =await kucoinContract.balanceOf(liquidityProvider)
 const poolAddressBalAfter = await poolContract.balanceOf(liquidityProvider)
 
 
-console.log("\n\n---------------After 😁---------------")
+console.log("\n\n---------------After 😎---------------")
 
 console.log("after balance for impersonated threshhold " + ethers.formatUnits(thresholdBalance,18 ))
 console.log("after balance for impersonated Kucoin " + ethers.formatUnits(kucoinBalance, 6 ))  
 console.log("after threshold/kucoin " + ethers.formatUnits(poolAddressBalAfter, decimalPoolAddress))
 
-
-// const removeLiquidty =  uniswapRouterContract.removeLiquidity(thresholdAddress,  kuCoinAddress, liquidity, amountAMin, amountBMin, liquidityProvider,deadline )
 
 
 
