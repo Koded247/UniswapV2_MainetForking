@@ -30,7 +30,7 @@ const main = async () => {
     
     const amountOut = ethers.parseUnits("10", 6); 
     const amountInMax = ethers.parseUnits("9000000", 18); 
-    const path = [thresholdAddress, kuCoinAddress]; /
+    const path = [thresholdAddress, kuCoinAddress]; 
     const to = liquidityProvider; 
     const deadline = (await helpers.time.latest()) + 3500;
 
@@ -56,7 +56,7 @@ const main = async () => {
     const thresholdBalanceAfter = await thresholdContract.balanceOf(liquidityProvider);
     const kucoinBalanceAfter = await kucoinContract.balanceOf(liquidityProvider);
 
-    console.log("\n\n---------------After Swap ⏲---------------");
+    console.log("\n\n---------------After Swap 👻👻---------------");
     console.log("Final Threshold balance: " + ethers.formatUnits(thresholdBalanceAfter, 18));
     console.log("Final KuCoin balance: " + ethers.formatUnits(kucoinBalanceAfter, 6));
 
