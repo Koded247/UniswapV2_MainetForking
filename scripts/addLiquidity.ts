@@ -35,7 +35,7 @@ const thresholdBalance = await thresholdContract.balanceOf(liquidityProvider)
 const kucoinBalance =await kucoinContract.balanceOf(liquidityProvider)
 
 
-console.log("\n\n---------------before 😁---------------")
+console.log("\n\n---------------before 😛😛---------------")
 
 console.log("before balance for impersonated threshhold " + ethers.formatUnits(thresholdBalance,18 ))
 console.log("before balance for impersonated Kucoin " + ethers.formatUnits(kucoinBalance, 6 ))  
